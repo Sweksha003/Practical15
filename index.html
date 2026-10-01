@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Web Page</title>
+</head>
+
+<body>
+
+    <h1>Student Information</h1>
+
+    <p id="info">Click the button to see student information.</p>
+
+    <button onclick="showInfo()">Show Information</button>
+
+    <script>
+        function showInfo() {
+            document.getElementById("info").innerHTML =
+                "Name: Alex | Course: BCA | Semester: 2";
+        }
+    </script>
+
+</body>
+</html>
